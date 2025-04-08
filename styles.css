@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E6F7F2; 
+    color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.quiz-container {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #1F3A34; 
+    margin-bottom: 30px;
+}
+
+
+.question {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #6C4F3D; 
+}
+
+
+#progress-container {
+    margin-top: 20px;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #d1f3ea; 
+    appearance: none;
+}
+
+#progress-bar::-webkit-progress-value {
+    background-color: #1F3A34;
+}
+
+
+#submit-btn {
+    background-color: #6C4F3D; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+#submit-btn:hover {
+    background-color: #5A3E2C; 
+}
+
+
+#confirm-dialog {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none;
+    text-align: center;
+}
+
+#confirm-dialog button {
+    background-color: #6C4F3D;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#confirm-dialog button:hover {
+    background-color: #5A3E2C;
+}

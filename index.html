@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ 
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"
+      integrity="sha256-9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="https://code.jquery.com/ui/1.14.1/themes/dot-luv/jquery-ui.css"
+    />
+<body>
+    
+
+
+
+    <div class="quiz-container">
+        <h1>Dinosaurs Quizzzz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What is the largest dinosaur?</p>
+                <input type="checkbox" name="q1" value="A"> A) T-Rex<br>
+                <input type="checkbox" name="q1" value="B"> B) Brachiosaurus<br>
+                <input type="checkbox" name="q1" value="C"> C) Stegosaurus<br>
+                <input type="checkbox" name="q1" value="D"> D) Triceratops<br>
+            </div>
+
+            <div class="question">
+                <p>2. Which dinosaur had a sail-like structure on its back?</p>
+                <input type="checkbox" name="q2" value="A"> A) Spinosaurus<br>
+                <input type="checkbox" name="q2" value="B"> B) Velociraptor<br>
+                <input type="checkbox" name="q2" value="C"> C) Allosaurus<br>
+                <input type="checkbox" name="q2" value="D"> D) Iguanodon<br>
+            </div>
+
+            <div class="question">
+                <p>3. What period did dinosaurs first appear in?</p>
+                <input type="checkbox" name="q3" value="A"> A) Triassic<br>
+                <input type="checkbox" name="q3" value="B"> B) Jurassic<br>
+                <input type="checkbox" name="q3" value="C"> C) Cretaceous<br>
+                <input type="checkbox" name="q3" value="D"> D) Devonian<br>
+            </div>
+
+            <div class="question">
+                <p>4. What is the smallest known dinosaur?</p>
+                <input type="checkbox" name="q4" value="A"> A) Microraptor<br>
+                <input type="checkbox" name="q4" value="B"> B) Compsognathus<br>
+                <input type="checkbox" name="q4" value="C"> C) Protoceratops<br>
+                <input type="checkbox" name="q4" value="D"> D) Tyrannosaurus rex<br>
+            </div>
+
+            <div class="question">
+                <p>5. Which dinosaur is known for having feathers?</p>
+                <input type="checkbox" name="q5" value="A"> A) Velociraptor<br>
+                <input type="checkbox" name="q5" value="B"> B) Brachiosaurus<br>
+                <input type="checkbox" name="q5" value="C"> C) Diplodocus<br>
+                <input type="checkbox" name="q5" value="D"> D) Stegosaurus<br>
+            </div>
+
+            <div id="progress-container">
+                <progress id="progress-bar" value="0" max="100"></progress>
+            </div>
+
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+    </div>
+
+   
+    <div id="confirm-dialog">
+        <p>Are you sure you want to submit the quiz????</p>
+        <button id="confirm-submit">Yes</button>
+        <button id="cancel-submit">No</button>
+    </div>
+
+    <script src="lalala.js"></script>
+</body>
+</html>
